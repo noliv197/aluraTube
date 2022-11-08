@@ -1,0 +1,26 @@
+.banner{
+    width: 100vw;
+    height: 230px;
+    object-fit: cover;
+}
+.cabecalho{
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+}
+.cabecalho img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.cabecalho h2{
+    font-size: var(--tamanhoGrande);
+    font-weight: var(--pesoNegrito);
+    margin-bottom: .5rem;
+}
+
+.cabecalho p{
+    font-size: var(--tamanhoNormal);
+    font-weight: var(--pesoNormal);
+    color: #666666;
+}

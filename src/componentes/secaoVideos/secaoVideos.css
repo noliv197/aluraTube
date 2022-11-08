@@ -1,0 +1,13 @@
+.secao-videos{
+    padding: 1rem;
+}
+.secao-videos h3{
+    font-size: var(--tamanhoNormal);
+    font-weight: var(--pesoNegrito);
+}
+.secao-videos .playlist{
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: repeat(4,1fr);
+    margin-bottom: 5rem;
+}
